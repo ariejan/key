@@ -1,0 +1,7 @@
+#!/bin/sh
+# A wrapper for system gpg that prevents actual commands from being executed 
+# in testing. It logs commands to "~/.history" so afterwards it can be
+# asserted that they ran.
+
+command="$1"
+echo gpg "$@" >> "$HOME"/.history
