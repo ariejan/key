@@ -1,0 +1,4 @@
+#!/usr/bin/env ruby
+
+require 'key/cli'
+Key::CLI.start
