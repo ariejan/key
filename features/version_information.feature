@@ -1,4 +1,5 @@
-Feature: version
+Feature: Version information
+
     The `version` command shows the currently installed version of Key.
 
     Scenario: Show version information
