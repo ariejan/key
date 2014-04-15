@@ -1,6 +1,7 @@
 # History
 
- * Add command for listing public, secret keys
+ * Add commands for signing, verifying, encrypting and decrypting
+ * Add commands for listing public, secret keys
 
 ## 0.0.1
 
