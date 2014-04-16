@@ -5,20 +5,20 @@ Feature: Listing keys
     To get a list of public keys, you can simply issue the `list` command:
 
     ```bash
-    key list
+    $ key list
     ```
 
     Showing secret keys requires you to specify the `--secret` flag.
 
     ```bash
-    key list --secret
+    $ key list --secret
     ```
 
     It's also possible to show public key signatures together with your
     public keys.
 
     ```bash
-    key list --sigs
+    $ key list --sigs
     ```
 
     Scenario: List public keys by default

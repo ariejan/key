@@ -3,7 +3,7 @@ Feature: Encryption
     Encrypting a plain text files requires an input file and a recipient:
 
     ```bash
-    key encrypt input.txt recipient@example.com
+    $ key encrypt input.txt recipient@example.com
     ```
 
     Key will encrypt and sign the plain text input file.

@@ -3,7 +3,7 @@ Feature: Signing
     Creating signatures is easy using Key:
 
     ```bash
-    key sign input.txt
+    $ key sign input.txt
     ```
 
     Signing plain text files will use your default key and create a clearsign,

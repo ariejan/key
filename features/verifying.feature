@@ -4,7 +4,7 @@ Feature: Verifying signatures
     a signed document.
 
     ```bash
-    key verify message.txt.asc
+    $ key verify message.txt.asc
     ```
 
     Scenario: Verify a signature

@@ -3,7 +3,7 @@ Feature: Decryption
     Encrypted files can be decrypted with Key:
 
     ```bash
-    key decrypt input.txt.asc
+    $ key decrypt input.txt.asc
     ```
 
     Scenario: Decrypt a file

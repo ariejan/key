@@ -5,7 +5,10 @@ module Key
 
     desc "version", "Show version information"
     def version
-      puts "Key v#{Key::VERSION}"
+      gpg_version = `gpg --version | grep "^gpg"`.strip
+      gpg_bin     = `which gpg`.strip
+
+      puts "Key v#{Key::VERSION} using #{gpg_version} at #{gpg_bin}"
     end
 
     desc "list", "List key information, shows only public keys by default"
