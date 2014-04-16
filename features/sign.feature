@@ -2,7 +2,9 @@ Feature: Signing
 
     Creating signatures is easy using Key:
 
-        > key sign input.txt
+    ```bash
+    key sign input.txt
+    ```
 
     Signing plain text files will use your default key and create a clearsign,
     armored signature.
@@ -13,4 +15,4 @@ Feature: Signing
           This is a message
           """
         When I run `bundle exec key sign input.txt`
-        Then "gpg --armor --clearsign input.txt" should be run
+        Then `gpg --armor --clearsign input.txt` should be run
